@@ -78,6 +78,7 @@ class WalkBot(Robot):
        super().__sub__(value)
        self.step_length -= value / 2
 
+# Tests our uprising prevention code!
 robot_1 = DriveBot()
 robot_2 = WalkBot()
 robot_3 = DriveBot()
